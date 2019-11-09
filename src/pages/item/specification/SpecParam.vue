@@ -147,9 +147,12 @@ export default {
           segments:[],
           numeric:false,
           searching:false,
-          generic:false}
+          generic:false
+      };
+      this.isEdit = false;
       this.show = true;
-      this.edit = false;
+      console.log("==========add========");
+
     },
     deleteParam(id) {
         this.$message.confirm("确认要删除该参数吗？")
